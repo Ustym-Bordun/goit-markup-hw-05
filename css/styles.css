@@ -761,7 +761,7 @@ body {
 
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 8px;
@@ -770,12 +770,6 @@ body {
 
   fill: transparent;
 }
-
-/* {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .modal-checkbox:checked + .modal-checkbox-label > .modal-custom-checkbox {
   background-color: #404bbf;
