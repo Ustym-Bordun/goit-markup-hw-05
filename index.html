@@ -480,7 +480,7 @@
                 placeholder="E-mail"
               />
             </label>
-            <button class="footer-subscribe-btn" type="button">
+            <button class="footer-subscribe-btn" type="submit">
               Subscribe
               <svg class="footer-subscribe-btn-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
@@ -492,7 +492,7 @@
     </footer>
 
     <!-- Modal Backdrop -->
-    <div class="modal-backdrop">
+    <div class="modal-backdrop is-open">
       <div class="modal">
         <button class="modal-close" type="button">
           <svg class="modal-close-icon" width="8" height="8">
@@ -505,13 +505,13 @@
 
         <form class="modal-form">
           <div class="modal-form-field-wrapper">
-            <label class="modal-label" for="modal-input-username">Name</label>
+            <label class="modal-label" for="user-name">Name</label>
             <div class="modal-input-wrapper">
               <input
                 class="modal-input"
-                id="modal-input-username"
+                id="user-name"
                 type="text"
-                name="username"
+                name="user-name"
               />
               <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
@@ -549,14 +549,12 @@
             </div>
           </div>
 
-          <div class="modal-form-field-wrapper">
-            <label class="modal-label" for="modal-textarea-comment"
-              >Comment</label
-            >
+          <div class="modal-form-textarea-wrapper">
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea"
-              id="modal-textarea-comment"
-              name="comment"
+              id="user-comment"
+              name="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -564,15 +562,12 @@
           <div class="modal-checkbox-wrapper">
             <input
               class="modal-checkbox visually-hidden"
-              id="modal-checkbox-privacy-policy"
+              id="user-privacy"
+              name="user-privacy"
               type="checkbox"
-              name="privacy-policy"
-              value="acept"
+              value="true"
             />
-            <label
-              class="modal-checkbox-label"
-              for="modal-checkbox-privacy-policy"
-            >
+            <label class="modal-checkbox-label" for="user-privacy">
               <span class="modal-custom-checkbox">
                 <svg class="modal-custom-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkmark"></use>
